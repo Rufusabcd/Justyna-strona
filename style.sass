@@ -1,0 +1,51 @@
+
+*
+  box-sizing: border-box
+
+.row
+  &:before, &:after
+    content: ""
+    display: table
+    clear: both
+
+ul li a
+  transition: color 0.5s ease
+  color: black
+  font-size: 25px
+  font-family: 'Indie Flower'
+  margin-right: 35px
+
+nav
+  background-color: white
+  border-bottom: solid black 1px
+  position: fixed
+  top: 0
+  width: 100%
+  height: 100px
+  margin: 0px
+
+ul li a:hover
+  color: #ff0066
+
+.IMG
+  width: 100%
+  position: relative
+  background-image: url("https://static.pexels.com/photos/209257/pexels-photo-209257.jpeg")
+  background-size: cover
+  height: 550px
+
+.jumbotron
+  opacity: 0.9
+
+/*WLECOME
+
+.Welcome
+  text-align: center
+  padding: 50px
+  .mt-0
+    padding: 15px
+    font-family: 'Indie Flower'
+    font-size: 25px
+
+.media-body
+  font-family: 'Indie Flower'
