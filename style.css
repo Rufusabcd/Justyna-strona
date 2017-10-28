@@ -5,13 +5,13 @@ ul li a {
   transition: color 0.5s ease;
   color: black;
   font-size: 25px;
-  font-family: "Indie Flower";
+  font-family: "Oswald";
   margin-right: 35px; }
   ul li a:hover {
-    color: #ff0066; }
+    color: #ecf0f1; }
 
 nav {
-  background-color: white;
+  background-color: #2ecc71;
   border-bottom: solid black 1px;
   position: fixed;
   top: 0;
@@ -34,7 +34,7 @@ nav {
   padding: 50px; }
   .Welcome .mt-0 {
     padding: 15px;
-    font-family: "Indie Flower";
+    font-family: "Oswald";
     font-size: 25px; }
 
 .media img {
@@ -44,15 +44,17 @@ nav {
   -webkit-filter: grayscale(100%); }
 
 .media-body {
-  font-family: "Indie Flower"; }
+  font-family: "Oswald"; }
 
 .w3-container h1 {
-  font-family: "Indie Flower";
   text-align: center; }
 
 .carousel {
   margin: 0 auto;
   width: 90%; }
+
+footer {
+  background-color: #2ecc71; }
 
 .social {
   margin: 0 auto;
@@ -72,7 +74,7 @@ nav {
   transition: 0.4s; }
 
 .social h2 {
-  font-family: "Indie Flower"; }
+  font-family: "Oswald"; }
 
 .twitter {
   color: #4099FF; }
